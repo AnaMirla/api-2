@@ -36,7 +36,7 @@ model usuario {
   nombre   String    @db.VarChar(50)
   dni      String    @db.VarChar(11)
   email    String    @unique @db.VarChar(50)
-  password String    @db.VarChar(50)
+  password String    @db.VarChar(255)
   estado   Boolean?  @default(true)
   createat DateTime? @default(now()) @db.Timestamp(6)
   role_id  BigInt?

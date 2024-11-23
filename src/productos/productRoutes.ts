@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import {getProduct, createProduct, updateProduct, deleteProduct, getProductById} from '../productos/productController'
+import {getProduct, createProduct, updateProduct, deleteProduct, getProductById} from './productController'
 
 export const productRoutes = new Hono()
 
