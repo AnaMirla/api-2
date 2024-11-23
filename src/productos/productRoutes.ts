@@ -9,6 +9,6 @@ productRoutes.post('/create', createProduct)
 
 productRoutes.get('/get/:id', getProductById)
 
-productRoutes.put('/update', updateProduct)
+productRoutes.put('/update/:id', updateProduct)
 
-productRoutes.delete('/delete', deleteProduct)
+productRoutes.delete('/delete/:id', deleteProduct)
